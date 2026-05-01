@@ -1,0 +1,178 @@
+/* ------------------------------
+   Global reset & base
+------------------------------ */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+/* ------------------------------
+   Page layout
+------------------------------ */
+
+/* Grey side background */
+.page-bg {
+  background-color: #f7f7f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Center white content */
+.container-page {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 30px;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+
+/* ------------------------------
+   Typography & spacing
+------------------------------ */
+
+body {
+  line-height: 1.6;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #444466;
+  font-family: Cambria;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  color: #444466;
+}
+
+/* Paragraphs */
+p {
+  margin: 0 0 10px 0;
+}
+
+/* Lists */
+ul {
+  margin-top: 6px;
+  margin-bottom: 14px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Fix extra gap after headings */
+h3 + ul,
+h3 + .courses {
+  margin-top: 0;
+}
+
+/* General text wrapper */
+.text {
+  font-size: 14px;
+}
+
+/* ------------------------------
+   Navigation bar
+------------------------------ */
+
+ul.navbar {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 20px 0 30px 0;
+}
+
+ul.navbar li {
+  display: inline;
+}
+
+ul.navbar li a {
+  color: #888888;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+ul.navbar li a:hover {
+  color: #222222;
+}
+
+/* ------------------------------
+   Homepage layout
+------------------------------ */
+
+.content {
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+.content img {
+  width: 240px;
+}
+
+/* ------------------------------
+   Education page
+------------------------------ */
+
+.edu-item {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.edu-year {
+  color: #444466;
+  font-weight: 500;
+}
+
+.edu-details p {
+  margin: 0;
+}
+
+/* ------------------------------
+   Courses (2-column layout)
+------------------------------ */
+
+.courses {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 0;
+}
+
+/* ------------------------------
+   Small polish
+------------------------------ */
+
+/* Slightly nicer links */
+a {
+  color: #2a5db0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------
+Adding colored section headings
+-------------------------------*/
+.section-title {
+  color: rgb(100, 0, 170);
+  font-weight: 500;
+}
