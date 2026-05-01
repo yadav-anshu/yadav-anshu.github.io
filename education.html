@@ -1,127 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<div id="head">
 <head>
-<title>Education</title>
-<h1 style="text-align:center; color:#444466; font-weight:600; font-family:'Cambria'">Education</h1>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-ulb {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Education</title>
+  <link rel="stylesheet" href="style.css">
 
-lib {
-  display: inline;
-}
+  <style>
+    /* Page-specific tweaks */
 
-lib a {
-  color: #888888;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+    .edu-item {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
 
-lib a:hover {
-  color: #222222;
-}
+    .edu-year {
+      color: #444466;
+      font-weight: 500;
+    }
 
-body {
-  font-family: Arial, Helvetica, sans-serif; text-align:justify; top-margin:250px; left-margin:500px;
-}
-</style>
+    .edu-details p {
+      margin: 0;
+    }
+
+    .courses {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+  </style>
 </head>
-</div>
-<div id="menubar">
 
-&nbsp
-<ulb>
-<center>
-<lib><a href="index.html">Home</a></lib>
-<lib><a href="pubs.html">Research</a></lib>
-<lib><a href="education.html">Education</a></lib>
-<lib><a href="awards.html">Awards and Recognitions</a></lib>
-<lib><a href="activities.html">Professional Activities</a></lib>
-</center>
-</ulb>
-</div>
-<br>
-<br>
-<div id = "contents">
 <body>
-<table>
-<tr>
-<td style="width:100px">
-</td>
-<td valign="top"; style="width:850px; text-align:justify">
-<table style="font-size:14px">
-<tr>
-<td style="valign:top; padding-left:20px"> 2018 - 2023 </td>
-<td style="padding-left:50px;">
-<p style="text-align:justify">
-<b>PhD</b> in <b>Computer Science and Engineering</b> from <a href="https://www.cse.iitm.ac.in"><b>IIT Madras</b></a>.<br>
-<i>Advisor: <a href="https://www.cse.iitm.ac.in/~shwetaag"></i>Prof. Shweta Agrawal</a><br>
-<i>Area of Research:</i> Theoretical Cryptography</p>
-</p>
-</td>
-</tr>
-<tr>
-<td style="valign:top; padding-left:20px"> 2013 - 2018 </td>
-<td style="padding-left:50px;">
-<p style="text-align:justify">
-<b>MS by Research</b> (converted from PhD) in <b>Computer Science and Engineering</b> from <a href="https://www.cse.iitb.ac.in"><b>IIT Bombay</b></a>.<br>
-<i>Advisor: <a href="https://www.cse.iitb.ac.in/~varsha"></i>Prof. Varsha Apte</a><br>
-<i>Area of Research:</i> Dynamic Server Consolidation for Cyclic Workloads</p>
-</p>
-</td>
-</tr>
-<tr>
-<td style="valign:top;  padding-left:20px"> 2010 - 2012 </td>
-<td style="padding-left:50px;">
-<p style="text-align:justify">
-<b>MTech</b> in <b>Information and Communication Technology</b> from <a href="https://www.daiict.ac.in"><b>DAIICT Gandhinagar</b></a>.<br>
-<i>Advisor: <a href="http://intranet.daiict.ac.in/~anish_mathuria/"></i>Prof. Anish Mathuria</a><br>
-<i>Area of Research:</i>Formal Analysis of Key Control in Key Agreement Protocols<br>
-</p>
-</td>
-</tr>
-<tr>
-<td style="valign:top;  padding-left:20px"> 2006 - 2010 </td>
-<td style="padding-left:50px;">
-<p style="text-align:justify">
-<b>BTech</b> in <b>Computer Science and Engineering</b> from <a href="https://www.aktu.ac.in"><b>Uttar Pradesh Technical University</b></a>.<br>
-<i>Institute: <a href="https://bbdnitm.ac.in"></i>BBDNITM</a><br>
-</p>
-</td>
-</tr>
-</table>
-<br>
-<h3 style="color:#444466;">Courses Taken at IIT Madras</h3>
-<table style="font-size:14px">
-<tr>
-<td>
-<ul>
-<li>Foundations of Cryptography</li>
-<li>Advanced Data Structures and Algorithms</li>
-<li>Computability and Complexity Theory</li>
-<li>Modern Complexity Theory</li>
-<li>Pseudorandomness </li>
-</ul>
-</td>
-<td valign="top">
-<ul>
-<li>Advanced Topics in Cryptography</li>
-<li>Recent Advances in Theoretical Comp. Sc.</li>
-<li>Mathematical Tools for Theoretical Comp. Sc.</li>
-<li>Structure vs Randomness</li>
-</ul>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-</body>
+
+<div class="page-bg">
+  <div class="container-page">
+
+    <h1>Education</h1>
+
+    <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="pubs.html">Research</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="awards.html">Awards and Recognitions</a></li>
+      <li><a href="activities.html">Professional Activities</a></li>
+    </ul>
+
+    <div class="text">
+
+      <!-- PhD -->
+      <div class="edu-item">
+        <div class="edu-year">2018 – 2023</div>
+        <div class="edu-details">
+          <p><b>PhD</b> in <b>Computer Science and Engineering</b>, 
+          <a href="https://www.cse.iitm.ac.in"><b>IIT Madras</b></a></p>
+          <p><i>Advisor:</i> <a href="https://www.cse.iitm.ac.in/~shwetaag">Prof. Shweta Agrawal</a></p>
+          <p><i>Area:</i> Theoretical Cryptography</p>
+        </div>
+      </div>
+
+      <!-- MS -->
+      <div class="edu-item">
+        <div class="edu-year">2013 – 2018</div>
+        <div class="edu-details">
+          <p><b>MS by Research</b> (converted from PhD) in <b>Computer Science and Engineering</b>, 
+          <a href="https://www.cse.iitb.ac.in"><b>IIT Bombay</b></a></p>
+          <p><i>Advisor:</i> <a href="https://www.cse.iitb.ac.in/~varsha">Prof. Varsha Apte</a></p>
+          <p><i>Area:</i> Dynamic Server Consolidation for Cyclic Workloads</p>
+        </div>
+      </div>
+
+      <!-- MTech -->
+      <div class="edu-item">
+        <div class="edu-year">2010 – 2012</div>
+        <div class="edu-details">
+          <p><b>MTech</b> in <b>Information and Communication Technology</b>, 
+          <a href="https://www.daiict.ac.in"><b>DAIICT Gandhinagar</b></a></p>
+          <p><i>Advisor:</i> <a href="http://intranet.daiict.ac.in/~anish_mathuria/">Prof. Anish Mathuria</a></p>
+          <p><i>Area:</i> Formal Analysis of Key Control in Key Agreement Protocols</p>
+        </div>
+      </div>
+
+      <!-- BTech -->
+      <div class="edu-item">
+        <div class="edu-year">2006 – 2010</div>
+        <div class="edu-details">
+          <p><b>BTech</b> in <b>Computer Science and Engineering</b>, 
+          <a href="https://www.aktu.ac.in"><b>Uttar Pradesh Technical University</b></a></p>
+          <p><i>Institute:</i> <a href="https://bbdnitm.ac.in">BBDNITM</a></p>
+        </div>
+      </div>
+
+      <!-- Courses -->
+      <h3 style="color:#444466;">Courses Taken at IIT Madras</h3>
+
+      <div class="courses">
+        <ul>
+          <li>Foundations of Cryptography</li>
+          <li>Advanced Data Structures and Algorithms</li>
+          <li>Computability and Complexity Theory</li>
+          <li>Modern Complexity Theory</li>
+          <li>Pseudorandomness</li>
+        </ul>
+
+        <ul>
+          <li>Advanced Topics in Cryptography</li>
+          <li>Recent Advances in Theoretical Computer Science</li>
+          <li>Mathematical Tools for Theoretical Computer Science</li>
+          <li>Structure vs Randomness</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
 </div>
+
+</body>
+</html>
