@@ -185,11 +185,6 @@ Text alignment "justified"
     margin: 0 auto;
 }
 
-.text-block-two {
-    max-width: 850px;
-    margin: 0 auto;
-}
-
 .justified-text {
     text-align: justify;
     font-size: 14px;
@@ -202,6 +197,18 @@ Text alignment "justified"
     line-height: 1.6;
 }
 
-.section-heading-center {
+.text-block-two {
+    max-width: 850px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.text-block-two h3 {
     text-align: center;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: #444466;
+    font-size: 1em;
+    font-weight: bold;
 }
