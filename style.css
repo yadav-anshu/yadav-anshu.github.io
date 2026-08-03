@@ -197,12 +197,7 @@ Text alignment "justified"
     line-height: 1.6;
 }
 
-.text-block-two {
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-.text-block-two h3 {
+.lecture-title {
     text-align: center;
 }
 
