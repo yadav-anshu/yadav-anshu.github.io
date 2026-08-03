@@ -176,3 +176,11 @@ Adding colored section headings
   color: rgb(100, 0, 170);
   font-weight: 500;
 }
+
+/* ------------------------------
+Text alignment "justified"
+-------------------------------*/
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
