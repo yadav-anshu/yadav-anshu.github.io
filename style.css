@@ -180,7 +180,10 @@ Adding colored section headings
 /* ------------------------------
 Text alignment "justified"
 -------------------------------*/
-.justify {
+.course-desc {
+    max-width: 700px;      /* narrower paragraph */
+    margin: 0 auto 10px auto;   /* center it */
     text-align: justify;
-    text-justify: inter-word;
+    font-size: 14px;       /* smaller font */
+    line-height: 1.6;      /* optional: adjust spacing */
 }
