@@ -197,18 +197,12 @@ Text alignment "justified"
     line-height: 1.6;
 }
 
-.text-block-two {
-    max-width: 850px;
-    margin: 0 auto;
-    font-size: 14px;
-    line-height: 1.6;
-}
-
 .text-block-two h3 {
     text-align: center;
-    margin-top: 24px;
-    margin-bottom: 8px;
-    color: #444466;
-    font-size: 1em;
-    font-weight: bold;
+}
+
+.lecture-content {
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.6;
 }
